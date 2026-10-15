@@ -1,0 +1,218 @@
+# Synthetic fact bank for tests (copied to a temp dir as factbank.yaml at test time).
+# Small, but exercises every field the pipeline reads: familiar vs working levels,
+# aliases, adjacent entries, metrics, project stacks.
+version: 1
+
+identity:
+  name: Test Person
+  email: test@example.com
+  phone: "(000) 000-0000"
+  location: {city: Montreal, province: QC, country: CA}
+  links:
+    github: https://github.com/test
+  work_authorization: pr
+  languages:
+    - {lang: English, cefr: C2, render: English}
+    - {lang: French, cefr: A2, render: "French (basic)"}
+
+targets:
+  roles: [software engineer, backend engineer]
+  seniority: [intern, newgrad, junior]
+  cities: [Montreal, Toronto]
+  provinces: ["QC", "ON"]
+  remote_scope_ok: [canada, global]
+  max_years: 2
+
+education:
+  - id: uni
+    institution: Test University
+    degree: Bachelor of Science, Software Engineering
+    start: 2022-09
+    end: 2026-05
+    location: Montreal, Canada
+
+skills:
+  - id: python
+    label: Python
+    category: language
+    domains: [backend, data, ml]
+    level: proficient
+    evidence: [acme-tool]
+    aliases: [scripting]
+    adjacent: [ruby]
+
+  - id: java
+    label: Java
+    category: language
+    domains: [backend]
+    level: proficient
+    evidence: [acme-api]
+    aliases: [OOP, object-oriented programming]
+    adjacent: [kotlin]
+
+  - id: react
+    label: React
+    category: framework
+    domains: [frontend]
+    level: working
+    evidence: [acme-ui]
+    aliases: [single-page applications]
+    adjacent: [nextjs]
+
+  - id: sql
+    label: SQL
+    category: db
+    domains: [data, backend]
+    level: proficient
+    evidence: [acme-db]
+    aliases: [relational databases]
+    adjacent: [postgresql]
+
+  - id: websockets
+    label: WebSockets
+    category: framework
+    domains: [backend, frontend]
+    level: working
+    evidence: [acme-api]
+    aliases: [real-time systems]
+    adjacent: [kafka]
+
+  - id: go
+    label: Go
+    category: language
+    domains: [backend, systems]
+    level: familiar
+    evidence: []
+    basis: "Self-taught"
+    aliases: [Golang]
+    adjacent: []
+
+  - id: pytorch
+    label: PyTorch
+    category: ml
+    domains: [ml]
+    level: working
+    evidence: [ml-train]
+    aliases: [deep learning frameworks]
+    adjacent: [tensorflow]
+
+  - id: uml
+    label: UML
+    category: modeling
+    domains: [design]
+    level: working
+    evidence: [acme-docs]
+    aliases: [software design]
+    adjacent: []
+
+  - id: docker
+    label: Docker
+    category: devops
+    domains: [devops, cloud]
+    level: working
+    evidence: [side-deploy]
+    aliases: [containerization]
+    adjacent: [kubernetes]
+
+experiences:
+  - id: acme
+    org: Acme Corp
+    title: Software Intern
+    start: 2024-10
+    end: 2025-05
+    location: Montreal, Canada
+    kind: work
+    bullets:
+      - id: acme-api
+        text: >-
+          Built Java REST services with WebSockets for live log streaming
+        skills: [java, websockets]
+        metrics: []
+        tags: [backend]
+        strength: 5
+      - id: acme-ui
+        text: >-
+          Built React features for permission-based filtering across 3 dashboards
+        skills: [react]
+        metrics: ["3"]
+        tags: [frontend]
+        strength: 4
+      - id: acme-db
+        text: >-
+          Queried evaluation data with SQL, cutting report time by ~50%
+        skills: [sql]
+        metrics: ["~50%"]
+        tags: [data]
+        strength: 4
+      - id: acme-tool
+        text: >-
+          Automated test triage with Python scripts, resolving 78+ bugs
+        skills: [python]
+        metrics: ["78+"]
+        tags: [tooling]
+        strength: 3
+      - id: acme-docs
+        text: >-
+          Drew UML sequence diagrams for the release process
+        skills: [uml]
+        metrics: []
+        tags: [design]
+        strength: 2
+
+  - id: lab
+    org: Research Lab
+    title: Research Assistant
+    start: 2023-05
+    end: 2023-08
+    location: Remote
+    kind: research
+    bullets:
+      - id: ml-train
+        text: >-
+          Trained PyTorch classifiers on 10K images
+        skills: [pytorch, python]
+        metrics: ["10K"]
+        tags: [ml]
+        strength: 4
+
+projects:
+  - id: side
+    name: "Side Project: Deployable Chat"
+    start: 2025-01
+    end: 2025-04
+    kind: solo
+    course: null
+    url: null
+    stack: [python, docker]
+    bullets:
+      - id: side-deploy
+        text: >-
+          Containerized the chat server with Docker for one-command deploys
+        skills: [docker]
+        metrics: []
+        tags: [devops]
+        strength: 3
+      - id: side-chat
+        text: >-
+          Built a Python chat backend serving 200+ concurrent users
+        skills: [python]
+        metrics: ["200+"]
+        tags: [backend]
+        strength: 4
+
+  - id: game
+    name: Game Agent
+    start: 2024-01
+    end: 2024-02
+    kind: course
+    course: null
+    url: null
+    stack: [python]
+    bullets:
+      - id: game-search
+        text: >-
+          Wrote a minimax game agent in Python
+        skills: [python]
+        metrics: []
+        tags: [ai]
+        strength: 3

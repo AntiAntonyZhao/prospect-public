@@ -1,0 +1,43 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "54191973-dbf8-5328-a576-f91139506bc6",
+      "title": "Junior Software Developer",
+      "department": "Engineering",
+      "team": "Software",
+      "employmentType": "FullTime",
+      "location": "Montreal",
+      "secondaryLocations": [
+        {
+          "location": "Toronto"
+        }
+      ],
+      "publishedAt": "2026-10-10T14:00:00.000+00:00",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "Hybrid",
+      "jobUrl": "https://jobs.example.com/sterlingcooper/54191973-dbf8-5328-a576-f91139506bc6",
+      "applyUrl": "https://jobs.example.com/sterlingcooper/54191973-dbf8-5328-a576-f91139506bc6/application",
+      "descriptionHtml": "<p>Sterling Cooper Digital builds campaign-planning software for agencies across North America. Our product team works in English.</p><h3>What you'll do</h3><ul><li>Build Java services with Spring Boot</li><li>Design REST APIs and SQL schemas</li><li>Ship features with a small, friendly team</li></ul><h3>What we're looking for</h3><ul><li>Java and object-oriented programming</li><li>Spring Boot</li><li>SQL</li><li>Git</li><li>Genuine interest in financial technology</li><li>A passion for clean code</li><li>Bilingualism (French and English) is required</li></ul><p>Hybrid from Montreal or Toronto. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</p>",
+      "descriptionPlain": "Sterling Cooper Digital builds campaign-planning software for agencies across North America. Our product team works in English.\nWhat you'll do\nBuild Java services with Spring Boot\nDesign REST APIs and SQL schemas\nShip features with a small, friendly team\nWhat we're looking for\nJava and object-oriented programming\nSpring Boot\nSQL\nGit\nGenuine interest in financial technology\nA passion for clean code\nBilingualism (French and English) is required\nHybrid from Montreal or Toronto. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo."
+    },
+    {
+      "id": "581e53b2-7f2d-5a50-a3db-ff2d74e346ec",
+      "title": "AI Engineer, New Grad",
+      "department": "Engineering",
+      "team": "Software",
+      "employmentType": "FullTime",
+      "location": "Montreal",
+      "secondaryLocations": [],
+      "publishedAt": "2026-10-11T14:00:00.000+00:00",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "Hybrid",
+      "jobUrl": "https://jobs.example.com/sterlingcooper/581e53b2-7f2d-5a50-a3db-ff2d74e346ec",
+      "applyUrl": "https://jobs.example.com/sterlingcooper/581e53b2-7f2d-5a50-a3db-ff2d74e346ec/application",
+      "descriptionHtml": "<p>Join our applied-AI team building assistants that draft campaign briefs.</p><h3>Responsibilities</h3><ul><li>Build LLM features with retrieval-augmented generation</li><li>Evaluate model outputs against labeled data</li><li>Deploy services on AWS</li></ul><h3>Requirements</h3><ul><li>Python</li><li>Experience with LLM APIs</li><li>Retrieval-augmented generation (RAG)</li><li>LangChain</li><li>AWS Certified Developer - Associate certification (required)</li></ul><p>Hybrid in Montreal, 2 days a week. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</p>",
+      "descriptionPlain": "Join our applied-AI team building assistants that draft campaign briefs.\nResponsibilities\nBuild LLM features with retrieval-augmented generation\nEvaluate model outputs against labeled data\nDeploy services on AWS\nRequirements\nPython\nExperience with LLM APIs\nRetrieval-augmented generation (RAG)\nLangChain\nAWS Certified Developer - Associate certification (required)\nHybrid in Montreal, 2 days a week. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo."
+    }
+  ]
+}

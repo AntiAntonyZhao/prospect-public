@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "sh -c 'for p in python3 python py; do if \"$p\" -c \"\" >/dev/null 2>&1; then exec \"$p\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/protect_factbank.py\"; fi; done; echo \"BLOCKED: protect_factbank hook found no working Python interpreter; failing closed (CLAUDE.md Hard rule 1).\" >&2; exit 2'"
+          }
+        ]
+      }
+    ]
+  }
+}

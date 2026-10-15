@@ -1,0 +1,73 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "296115e0-5ed7-51c7-a5ad-d71e3eca8872",
+      "title": "Software Engineer, Platform",
+      "department": "Engineering",
+      "team": "Software",
+      "employmentType": "FullTime",
+      "location": "Canada",
+      "secondaryLocations": [],
+      "publishedAt": "2026-10-12T15:00:00.000+00:00",
+      "isListed": true,
+      "isRemote": true,
+      "workplaceType": "Remote",
+      "jobUrl": "https://jobs.example.com/dundermifflin/296115e0-5ed7-51c7-a5ad-d71e3eca8872",
+      "applyUrl": "https://jobs.example.com/dundermifflin/296115e0-5ed7-51c7-a5ad-d71e3eca8872/application",
+      "descriptionHtml": "<p>Dunder Mifflin's platform team runs the infrastructure behind our online paper ordering. This role is fully remote within Canada.</p><h3>What you'll do</h3><ul><li>Write Go services for internal platform tooling</li><li>Containerize workloads with Docker and run them on Kubernetes</li><li>Manage infrastructure as code with Terraform</li><li>Maintain CI/CD pipelines</li></ul><h3>Requirements</h3><ul><li>Go</li><li>Docker</li><li>Kubernetes</li><li>Terraform</li><li>CI/CD</li></ul><p>Remote (Canada). We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</p>",
+      "descriptionPlain": "Dunder Mifflin's platform team runs the infrastructure behind our online paper ordering. This role is fully remote within Canada.\nWhat you'll do\nWrite Go services for internal platform tooling\nContainerize workloads with Docker and run them on Kubernetes\nManage infrastructure as code with Terraform\nMaintain CI/CD pipelines\nRequirements\nGo\nDocker\nKubernetes\nTerraform\nCI/CD\nRemote (Canada). We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo."
+    },
+    {
+      "id": "168190c3-a759-5e81-a3d5-56903601030a",
+      "title": "Engineering Manager, Payments",
+      "department": "Engineering",
+      "team": "Software",
+      "employmentType": "FullTime",
+      "location": "Montreal",
+      "secondaryLocations": [],
+      "publishedAt": "2026-10-04T15:00:00.000+00:00",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "Hybrid",
+      "jobUrl": "https://jobs.example.com/dundermifflin/168190c3-a759-5e81-a3d5-56903601030a",
+      "applyUrl": "https://jobs.example.com/dundermifflin/168190c3-a759-5e81-a3d5-56903601030a/application",
+      "descriptionHtml": "<p>Lead the payments engineering team of eight.</p><h3>Requirements</h3><ul><li>5+ years of engineering experience, 2+ years managing engineers</li><li>Experience with payment systems</li></ul><p>We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</p>",
+      "descriptionPlain": "Lead the payments engineering team of eight.\nRequirements\n5+ years of engineering experience, 2+ years managing engineers\nExperience with payment systems\nWe are an equal opportunity employer. This company is fictional and exists only in the Prospect demo."
+    },
+    {
+      "id": "dfa84e2c-e297-58b3-b12c-a2ee0a7a421d",
+      "title": "Embedded Software Engineer",
+      "department": "Engineering",
+      "team": "Software",
+      "employmentType": "FullTime",
+      "location": "Calgary, Alberta",
+      "secondaryLocations": [],
+      "publishedAt": "2026-10-06T15:00:00.000+00:00",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "jobUrl": "https://jobs.example.com/dundermifflin/dfa84e2c-e297-58b3-b12c-a2ee0a7a421d",
+      "applyUrl": "https://jobs.example.com/dundermifflin/dfa84e2c-e297-58b3-b12c-a2ee0a7a421d/application",
+      "descriptionHtml": "<p>Write firmware for Dunder Mifflin's warehouse sorting machines.</p><h3>Requirements</h3><ul><li>Bachelor's degree in Electrical or Computer Engineering</li><li>C and embedded Linux</li><li>Must hold a P.Eng. designation with APEGA</li></ul><p>Onsite in Calgary. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</p>",
+      "descriptionPlain": "Write firmware for Dunder Mifflin's warehouse sorting machines.\nRequirements\nBachelor's degree in Electrical or Computer Engineering\nC and embedded Linux\nMust hold a P.Eng. designation with APEGA\nOnsite in Calgary. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo."
+    },
+    {
+      "id": "3d7f9f21-a4bc-5058-b657-fdd8a263cb2f",
+      "title": "QA Automation Developer",
+      "department": "Engineering",
+      "team": "Software",
+      "employmentType": "Contract",
+      "location": "Montreal",
+      "secondaryLocations": [],
+      "publishedAt": "2026-10-09T15:00:00.000+00:00",
+      "isListed": true,
+      "isRemote": false,
+      "workplaceType": "OnSite",
+      "jobUrl": "https://jobs.example.com/dundermifflin/3d7f9f21-a4bc-5058-b657-fdd8a263cb2f",
+      "applyUrl": "https://jobs.example.com/dundermifflin/3d7f9f21-a4bc-5058-b657-fdd8a263cb2f/application",
+      "descriptionHtml": "<p>Automate testing for Dunder Mifflin's ordering platform. This is a 12-month contract.</p><h3>Responsibilities</h3><ul><li>Write automated API and UI tests</li><li>Run the test suites in CI/CD</li></ul><h3>Requirements</h3><ul><li>Python</li><li>pytest</li><li>Selenium or Playwright</li><li>CI/CD</li></ul><p>Onsite in Montreal. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</p>",
+      "descriptionPlain": "Automate testing for Dunder Mifflin's ordering platform. This is a 12-month contract.\nResponsibilities\nWrite automated API and UI tests\nRun the test suites in CI/CD\nRequirements\nPython\npytest\nSelenium or Playwright\nCI/CD\nOnsite in Montreal. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo."
+    }
+  ]
+}

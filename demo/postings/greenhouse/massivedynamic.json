@@ -1,0 +1,77 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://jobs.example.com/massivedynamic/4300001",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 300001,
+      "location": {
+        "name": "Remote - Canada"
+      },
+      "metadata": null,
+      "id": 4300001,
+      "updated_at": "2026-10-12T10:00:00-04:00",
+      "requisition_id": "REQ-1",
+      "title": "Machine Learning Engineer",
+      "company_name": "Massive Dynamic",
+      "first_published": "2026-10-12T10:00:00-04:00",
+      "content": "&lt;p&gt;Massive Dynamic&#x27;s applied ML team ships models and LLM features into our research products. This is a remote role open to candidates anywhere in Canada.&lt;/p&gt;&lt;h3&gt;Responsibilities&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Train, evaluate and deploy PyTorch models&lt;/li&gt;&lt;li&gt;Build LLM application features with retrieval and structured outputs&lt;/li&gt;&lt;li&gt;Track experiments and model versions with MLflow&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;0-2 years of industry experience; new graduates welcome&lt;/li&gt;&lt;li&gt;Proficiency in Python and PyTorch&lt;/li&gt;&lt;li&gt;Experience training and evaluating machine learning models&lt;/li&gt;&lt;li&gt;Experience building LLM applications&lt;/li&gt;&lt;li&gt;Experience with MLflow or a similar experiment tracker&lt;/li&gt;&lt;li&gt;Kubernetes is an asset&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Remote within Canada. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": []
+    },
+    {
+      "absolute_url": "https://jobs.example.com/massivedynamic/4300002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 300002,
+      "location": {
+        "name": "Toronto, Ontario, Canada"
+      },
+      "metadata": null,
+      "id": 4300002,
+      "updated_at": "2026-10-05T10:00:00-04:00",
+      "requisition_id": "REQ-2",
+      "title": "Software Engineer II",
+      "company_name": "Massive Dynamic",
+      "first_published": "2026-10-05T10:00:00-04:00",
+      "content": "&lt;p&gt;Build the core services behind Massive Dynamic&#x27;s lab-automation platform.&lt;/p&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;5+ years of professional software development experience&lt;/li&gt;&lt;li&gt;Strong Python or Java&lt;/li&gt;&lt;li&gt;Experience designing REST APIs and relational schemas&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Hybrid in Toronto, 3 days a week. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 1,
+          "name": "Toronto",
+          "location": "Toronto",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 2
+  }
+}

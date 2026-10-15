@@ -1,0 +1,94 @@
+[
+  {
+    "additional": "<div>Onsite in Vancouver. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</div>",
+    "additionalPlain": "Onsite in Vancouver. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.",
+    "categories": {
+      "commitment": "Full-time",
+      "department": "Engineering",
+      "location": "Vancouver, BC",
+      "team": "Software",
+      "allLocations": [
+        "Vancouver, BC"
+      ]
+    },
+    "createdAt": 1791676800000,
+    "descriptionPlain": "Cyberdyne's trading-systems group builds the order gateway for our market-making desk. New graduates with strong C++ are welcome.",
+    "description": "<div>Cyberdyne's trading-systems group builds the order gateway for our market-making desk. New graduates with strong C++ are welcome.</div>",
+    "id": "5174dce3-9677-5bc2-b846-91034b792bdb",
+    "lists": [
+      {
+        "text": "What you'll do",
+        "content": "<li>Write modern C++20 for latency-critical order paths</li><li>Profile and tune Linux hosts and network stacks</li>"
+      },
+      {
+        "text": "Requirements",
+        "content": "<li>0-2 years of experience</li><li>Strong modern C++ (C++17/20)</li><li>Deep understanding of low-latency systems: lock-free data structures, cache behaviour</li><li>Experience with kernel-bypass networking</li><li>Linux</li>"
+      }
+    ],
+    "text": "Low-Latency C++ Developer",
+    "country": "CA",
+    "workplaceType": "onsite",
+    "hostedUrl": "https://jobs.example.com/cyberdyne/5174dce3-9677-5bc2-b846-91034b792bdb",
+    "applyUrl": "https://jobs.example.com/cyberdyne/5174dce3-9677-5bc2-b846-91034b792bdb/apply"
+  },
+  {
+    "additional": "<div>Onsite in Montreal, flexible hours. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</div>",
+    "additionalPlain": "Onsite in Montreal, flexible hours. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.",
+    "categories": {
+      "commitment": "Part-time",
+      "department": "Engineering",
+      "location": "Montreal, QC",
+      "team": "Software",
+      "allLocations": [
+        "Montreal, QC"
+      ]
+    },
+    "createdAt": 1791763200000,
+    "descriptionPlain": "Help Cyberdyne's internal-tools team maintain the web apps our operations staff use every day. This is a part-time role of 20 hours per week on a 6-month contract.",
+    "description": "<div>Help Cyberdyne's internal-tools team maintain the web apps our operations staff use every day. This is a part-time role of 20 hours per week on a 6-month contract.</div>",
+    "id": "902cff1a-875f-5662-b3d3-f789ccf895a4",
+    "lists": [
+      {
+        "text": "Responsibilities",
+        "content": "<li>Fix bugs and add small features to Django applications</li><li>Write SQL reports for operations</li>"
+      },
+      {
+        "text": "Requirements",
+        "content": "<li>Python</li><li>Django</li><li>SQL</li>"
+      }
+    ],
+    "text": "Junior Software Developer (Part-Time)",
+    "country": "CA",
+    "workplaceType": "onsite",
+    "hostedUrl": "https://jobs.example.com/cyberdyne/902cff1a-875f-5662-b3d3-f789ccf895a4",
+    "applyUrl": "https://jobs.example.com/cyberdyne/902cff1a-875f-5662-b3d3-f789ccf895a4/apply"
+  },
+  {
+    "additional": "<div>Hybrid in Montreal. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</div>",
+    "additionalPlain": "Hybrid in Montreal. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.",
+    "categories": {
+      "commitment": "Full-time",
+      "department": "Engineering",
+      "location": "Montreal, QC",
+      "team": "Software",
+      "allLocations": [
+        "Montreal, QC"
+      ]
+    },
+    "createdAt": 1791331200000,
+    "descriptionPlain": "Build the APIs behind Cyberdyne's fleet-monitoring product.",
+    "description": "<div>Build the APIs behind Cyberdyne's fleet-monitoring product.</div>",
+    "id": "2ff53f63-ce51-5b0f-b639-3f0504d37657",
+    "lists": [
+      {
+        "text": "Requirements",
+        "content": "<li>1-3 years of professional experience</li><li>Expert-level Python: 5+ years of hands-on Python development required</li><li>FastAPI or Flask</li><li>PostgreSQL</li>"
+      }
+    ],
+    "text": "Backend Developer (Python)",
+    "country": "CA",
+    "workplaceType": "hybrid",
+    "hostedUrl": "https://jobs.example.com/cyberdyne/2ff53f63-ce51-5b0f-b639-3f0504d37657",
+    "applyUrl": "https://jobs.example.com/cyberdyne/2ff53f63-ce51-5b0f-b639-3f0504d37657/apply"
+  }
+]

@@ -1,0 +1,27 @@
+# secrets
+.env
+# runtime (prospect.db, demo.db)
+*.db
+*.db-wal
+*.db-shm
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+# editor
+.vscode/
+.idea/
+# claude code local state (keep .claude/settings.json and hooks/ committed)
+.claude/settings.local.json
+# your own config and fact bank (the demo profile in demo/ is committed)
+prospect.toml
+factbank.yaml
+
+# test / coverage artifacts
+.coverage
+htmlcov/
+
+# hand-labeling work files (eval export): they hold third-party posting text
+labels/

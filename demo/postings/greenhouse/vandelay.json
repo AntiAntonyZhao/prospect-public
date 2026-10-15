@@ -1,0 +1,116 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://jobs.example.com/vandelay/4200001",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 200001,
+      "location": {
+        "name": "Remote"
+      },
+      "metadata": null,
+      "id": 4200001,
+      "updated_at": "2026-10-10T11:00:00-04:00",
+      "requisition_id": "REQ-1",
+      "title": "Backend Developer",
+      "company_name": "Vandelay Industries",
+      "first_published": "2026-10-10T11:00:00-04:00",
+      "content": "&lt;p&gt;Vandelay Industries is modernizing its import/export logistics platform and needs a backend developer to build order-routing services.&lt;/p&gt;&lt;h3&gt;Responsibilities&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Build Python microservices and REST APIs for order routing&lt;/li&gt;&lt;li&gt;Own PostgreSQL schemas and migrations&lt;/li&gt;&lt;li&gt;Improve observability with structured logging and metrics&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Qualifications&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;1+ years of experience with Python in production&lt;/li&gt;&lt;li&gt;Solid SQL skills&lt;/li&gt;&lt;li&gt;Experience with AWS&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Location&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;This is a fully remote position open only to candidates who reside in the United States&lt;/li&gt;&lt;li&gt;We are unable to hire outside the United States&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": []
+    },
+    {
+      "absolute_url": "https://jobs.example.com/vandelay/4200002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 200002,
+      "location": {
+        "name": "Ottawa, Ontario, Canada"
+      },
+      "metadata": null,
+      "id": 4200002,
+      "updated_at": "2026-10-07T08:00:00-04:00",
+      "requisition_id": "REQ-2",
+      "title": "Software Developer, Defence Systems",
+      "company_name": "Vandelay Industries",
+      "first_published": "2026-10-07T08:00:00-04:00",
+      "content": "&lt;p&gt;Vandelay&#x27;s defence division builds mission-planning software for government clients.&lt;/p&gt;&lt;h3&gt;What you will do&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Develop Java and Python components for secure planning tools&lt;/li&gt;&lt;li&gt;Write automated tests and documentation for accredited releases&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Bachelor&#x27;s degree in Computer Science or Software Engineering&lt;/li&gt;&lt;li&gt;Experience with Java or Python&lt;/li&gt;&lt;li&gt;Must hold a valid Government of Canada Secret security clearance at the time of hire&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Onsite in Ottawa, five days a week. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 1,
+          "name": "Ottawa",
+          "location": "Ottawa",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://jobs.example.com/vandelay/4200003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 200003,
+      "location": {
+        "name": "Toronto, Ontario, Canada"
+      },
+      "metadata": null,
+      "id": 4200003,
+      "updated_at": "2026-10-11T09:00:00-04:00",
+      "requisition_id": "REQ-3",
+      "title": "Data Engineer",
+      "company_name": "Vandelay Industries",
+      "first_published": "2026-10-11T09:00:00-04:00",
+      "content": "&lt;p&gt;Join the Vandelay data team that turns shipment events into the analytics our customers rely on.&lt;/p&gt;&lt;h3&gt;What you&#x27;ll do&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Build the batch pipelines that feed our customer analytics&lt;/li&gt;&lt;li&gt;Schedule and monitor workflows, and keep data quality high&lt;/li&gt;&lt;li&gt;Model warehouse tables with the analytics team&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;What you bring&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;2+ years of experience building data pipelines (internships count)&lt;/li&gt;&lt;li&gt;Strong Python and SQL&lt;/li&gt;&lt;li&gt;Experience with Apache Airflow&lt;/li&gt;&lt;li&gt;Experience with Apache Spark&lt;/li&gt;&lt;li&gt;dbt experience is nice to have&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Hybrid: 2 days a week in our Toronto office. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 1,
+          "name": "Toronto",
+          "location": "Toronto",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 3
+  }
+}

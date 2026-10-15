@@ -1,0 +1,131 @@
+{
+  "jobs": [
+    {
+      "absolute_url": "https://jobs.example.com/hooli/4100001",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 100001,
+      "location": {
+        "name": "Montreal, Quebec, Canada"
+      },
+      "metadata": null,
+      "id": 4100001,
+      "updated_at": "2026-10-09T13:00:00-04:00",
+      "requisition_id": "REQ-1",
+      "title": "Software Engineer, New Grad",
+      "company_name": "Hooli",
+      "first_published": "2026-10-09T13:00:00-04:00",
+      "content": "&lt;p&gt;Hooli&#x27;s Montreal office builds the data platform behind Hooli Analytics. We are hiring new graduates to join the Ingestion team, where you will ship production code in your first month with a dedicated mentor.&lt;/p&gt;&lt;h3&gt;What you&#x27;ll do&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Build and operate Python services that ingest and validate billions of events a day&lt;/li&gt;&lt;li&gt;Design REST APIs with FastAPI backed by PostgreSQL&lt;/li&gt;&lt;li&gt;Write tests, review code and join a mentored on-call rotation&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;What we&#x27;re looking for&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;A bachelor&#x27;s degree in Computer Science or a related field, completed by summer 2027&lt;/li&gt;&lt;li&gt;Strong Python fundamentals&lt;/li&gt;&lt;li&gt;Experience with SQL and relational databases (PostgreSQL preferred)&lt;/li&gt;&lt;li&gt;Familiarity with Docker and CI/CD pipelines&lt;/li&gt;&lt;li&gt;Kubernetes experience is a plus&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;This is a hybrid role based in our Montreal office, 3 days a week on site. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 1,
+          "name": "Montreal",
+          "location": "Montreal",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://jobs.example.com/hooli/4100002",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 100002,
+      "location": {
+        "name": "Toronto, Ontario, Canada"
+      },
+      "metadata": null,
+      "id": 4100002,
+      "updated_at": "2026-10-06T10:00:00-04:00",
+      "requisition_id": "REQ-2",
+      "title": "Senior Backend Engineer",
+      "company_name": "Hooli",
+      "first_published": "2026-10-06T10:00:00-04:00",
+      "content": "&lt;p&gt;Lead the design of Hooli&#x27;s billing services and mentor a team of five engineers.&lt;/p&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;7+ years of backend development experience&lt;/li&gt;&lt;li&gt;Deep experience with Go or Java and distributed systems&lt;/li&gt;&lt;li&gt;Track record of leading cross-team technical projects&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Hybrid in Toronto. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 1,
+          "name": "Toronto",
+          "location": "Toronto",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    },
+    {
+      "absolute_url": "https://jobs.example.com/hooli/4100003",
+      "data_compliance": [
+        {
+          "type": "gdpr",
+          "requires_consent": false,
+          "retention_period": null
+        }
+      ],
+      "internal_job_id": 100003,
+      "location": {
+        "name": "Mountain View, CA"
+      },
+      "metadata": null,
+      "id": 4100003,
+      "updated_at": "2026-10-08T09:30:00-07:00",
+      "requisition_id": "REQ-3",
+      "title": "Software Engineer, University Graduate",
+      "company_name": "Hooli",
+      "first_published": "2026-10-08T09:30:00-07:00",
+      "content": "&lt;p&gt;Join Hooli&#x27;s headquarters engineering program for recent university graduates.&lt;/p&gt;&lt;h3&gt;Minimum qualifications&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;BS in Computer Science or equivalent practical experience&lt;/li&gt;&lt;li&gt;Experience with one or more general-purpose languages: Python, Java, C++ or Go&lt;/li&gt;&lt;li&gt;Must be authorized to work in the United States&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Onsite in Mountain View, CA or New York, NY. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.&lt;/p&gt;",
+      "departments": [
+        {
+          "id": 1,
+          "name": "Engineering",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ],
+      "offices": [
+        {
+          "id": 1,
+          "name": "Mountain View, CA",
+          "location": "Mountain View, CA",
+          "child_ids": [],
+          "parent_id": null
+        },
+        {
+          "id": 2,
+          "name": "New York, NY",
+          "location": "New York, NY",
+          "child_ids": [],
+          "parent_id": null
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "total": 3
+  }
+}

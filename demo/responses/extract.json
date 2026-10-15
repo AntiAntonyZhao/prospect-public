@@ -1,0 +1,1988 @@
+{
+ "about": "Responses to `prospect demo --record` (extract stage), recorded 2026-10-15 from the Anthropic API for the fictional demo postings. Keyed by a hash of the full request; replayed by `prospect demo`.",
+ "responses": [
+  {
+   "key": "73f6519f08b512f9d07dda547e27da812a0507b5bbe7deba63016a652b9b4d4f",
+   "stage": "extract",
+   "request": "Company: Cyberdyne Systems | Title: Backend Developer (Python)",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4402,
+     "output_tokens": 516,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Montreal",
+        "province": "QC",
+        "country": "CA",
+        "work_arrangement": "hybrid",
+        "onsite_days": null,
+        "remote_scope": "unknown",
+        "french_requirement": "none",
+        "min_years": 1,
+        "seniority": "junior",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Hybrid in Montreal"
+         },
+         {
+          "field": "province",
+          "quote": "Montreal, QC"
+         },
+         {
+          "field": "country",
+          "quote": "Montreal, QC"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Hybrid in Montreal"
+         },
+         {
+          "field": "french_requirement",
+          "quote": "Build the APIs behind Cyberdyne's fleet-monitoring product."
+         },
+         {
+          "field": "min_years",
+          "quote": "1-3 years of professional experience"
+         },
+         {
+          "field": "seniority",
+          "quote": "1-3 years of professional experience"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "1-3 years of professional experience",
+         "skill_norm": "Experience",
+         "must_have": true,
+         "years": 1,
+         "context": null,
+         "kind": "eligibility"
+        },
+        {
+         "text": "Expert-level Python: 5+ years of hands-on Python development required",
+         "skill_norm": "Python",
+         "must_have": true,
+         "years": 5,
+         "context": "expert-level, hands-on",
+         "kind": "skill"
+        },
+        {
+         "text": "FastAPI or Flask",
+         "skill_norm": "FastAPI | Flask",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "PostgreSQL",
+         "skill_norm": "PostgreSQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "98c56a7e681b1d8c60affd5e88fe67d17e97e547d8fc7313da70b131017ef720",
+   "stage": "extract",
+   "request": "Company: Cyberdyne Systems | Title: Junior Software Developer (Part-Time)",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4430,
+     "output_tokens": 495,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Montreal",
+        "province": "QC",
+        "country": "CA",
+        "work_arrangement": "onsite",
+        "onsite_days": null,
+        "remote_scope": "unknown",
+        "french_requirement": "none",
+        "min_years": null,
+        "seniority": "junior",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": true,
+        "hours_per_week": 20,
+        "contract": true,
+        "term_length": 6,
+        "term_unit": "months",
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Onsite in Montreal"
+         },
+         {
+          "field": "province",
+          "quote": "Montreal, QC (onsite)"
+         },
+         {
+          "field": "country",
+          "quote": "Montreal, QC (onsite)"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Onsite in Montreal"
+         },
+         {
+          "field": "seniority",
+          "quote": "Junior Software Developer"
+         },
+         {
+          "field": "part_time",
+          "quote": "This is a part-time role of 20 hours per week"
+         },
+         {
+          "field": "hours_per_week",
+          "quote": "20 hours per week"
+         },
+         {
+          "field": "contract",
+          "quote": "6-month contract"
+         },
+         {
+          "field": "term_length",
+          "quote": "6-month contract"
+         },
+         {
+          "field": "term_unit",
+          "quote": "6-month contract"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Python",
+         "skill_norm": "Python",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Django",
+         "skill_norm": "Django",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "SQL",
+         "skill_norm": "SQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "4c6ba9c8075ab49e2a1d8c524ba2c98a08026131a009fc5429020dd45ee48531",
+   "stage": "extract",
+   "request": "Company: Cyberdyne Systems | Title: Low-Latency C++ Developer",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4466,
+     "output_tokens": 556,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Vancouver",
+        "province": "BC",
+        "country": "CA",
+        "work_arrangement": "onsite",
+        "onsite_days": null,
+        "remote_scope": "unknown",
+        "french_requirement": "none",
+        "min_years": 0,
+        "seniority": "newgrad",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Onsite in Vancouver"
+         },
+         {
+          "field": "province",
+          "quote": "Vancouver, BC"
+         },
+         {
+          "field": "country",
+          "quote": "Vancouver, BC"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Onsite in Vancouver"
+         },
+         {
+          "field": "min_years",
+          "quote": "0-2 years of experience"
+         },
+         {
+          "field": "seniority",
+          "quote": "New graduates with strong C++ are welcome"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "0-2 years of experience",
+         "skill_norm": "eligibility: 0–2 years experience",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "eligibility"
+        },
+        {
+         "text": "Strong modern C++ (C++17/20)",
+         "skill_norm": "C++17 | C++20",
+         "must_have": true,
+         "years": null,
+         "context": "modern",
+         "kind": "skill"
+        },
+        {
+         "text": "Deep understanding of low-latency systems: lock-free data structures, cache behaviour",
+         "skill_norm": "Low-latency systems",
+         "must_have": true,
+         "years": null,
+         "context": "lock-free data structures, cache behaviour",
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with kernel-bypass networking",
+         "skill_norm": "Kernel-bypass networking",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Linux",
+         "skill_norm": "Linux",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "b36555e4709c54df6fe8f08885baadf995dc0eeb9277d5e622f219773bdc9b3b",
+   "stage": "extract",
+   "request": "Company: Dunder Mifflin Paper Company | Title: Embedded Software Engineer",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4401,
+     "output_tokens": 385,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Calgary",
+        "province": "AB",
+        "country": "CA",
+        "work_arrangement": "onsite",
+        "onsite_days": null,
+        "remote_scope": "unknown",
+        "french_requirement": "none",
+        "min_years": null,
+        "seniority": "unknown",
+        "clearance": false,
+        "peng": true,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Onsite in Calgary"
+         },
+         {
+          "field": "province",
+          "quote": "Calgary, Alberta"
+         },
+         {
+          "field": "country",
+          "quote": "Calgary, Alberta"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Onsite in Calgary"
+         },
+         {
+          "field": "peng",
+          "quote": "Must hold a P.Eng. designation with APEGA"
+         },
+         {
+          "field": "french_requirement",
+          "quote": "Posting body is entirely in English with no mention of French"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Bachelor's degree in Electrical or Computer Engineering",
+         "skill_norm": "Bachelor's degree in Electrical or Computer Engineering",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "C and embedded Linux",
+         "skill_norm": "C | embedded Linux",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Must hold a P.Eng. designation with APEGA",
+         "skill_norm": "P.Eng. (APEGA)",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "2cc758c523db693e0414de55b735aee62e9d7c72173221a41c90d0251e1aa048",
+   "stage": "extract",
+   "request": "Company: Dunder Mifflin Paper Company | Title: QA Automation Developer",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4418,
+     "output_tokens": 480,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Montreal",
+        "province": "QC",
+        "country": "CA",
+        "work_arrangement": "onsite",
+        "onsite_days": null,
+        "remote_scope": "unknown",
+        "french_requirement": "none",
+        "min_years": null,
+        "seniority": "unknown",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": true,
+        "term_length": 12,
+        "term_unit": "months",
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Onsite in Montreal"
+         },
+         {
+          "field": "province",
+          "quote": "Onsite in Montreal"
+         },
+         {
+          "field": "country",
+          "quote": "Onsite in Montreal"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Onsite in Montreal"
+         },
+         {
+          "field": "contract",
+          "quote": "This is a 12-month contract"
+         },
+         {
+          "field": "term_length",
+          "quote": "12-month contract"
+         },
+         {
+          "field": "term_unit",
+          "quote": "12-month contract"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Python",
+         "skill_norm": "Python",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "pytest",
+         "skill_norm": "pytest",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Selenium or Playwright",
+         "skill_norm": "Selenium | Playwright",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "CI/CD",
+         "skill_norm": "CI/CD",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "a6d51c5fc17585ac23dc54ce0ca42a241b90887d6cef87d8e094d433880b6ce2",
+   "stage": "extract",
+   "request": "Company: Dunder Mifflin Paper Company | Title: Software Engineer, Platform",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4444,
+     "output_tokens": 454,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": null,
+        "province": null,
+        "country": "CA",
+        "work_arrangement": "remote",
+        "onsite_days": null,
+        "remote_scope": "canada",
+        "french_requirement": "none",
+        "min_years": null,
+        "seniority": "unknown",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "work_arrangement",
+          "quote": "This role is fully remote within Canada."
+         },
+         {
+          "field": "remote_scope",
+          "quote": "Remote (Canada)"
+         },
+         {
+          "field": "country",
+          "quote": "Remote (Canada)"
+         },
+         {
+          "field": "french_requirement",
+          "quote": "no mention of French requirement in posting"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Go",
+         "skill_norm": "Go",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Docker",
+         "skill_norm": "Docker",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Kubernetes",
+         "skill_norm": "Kubernetes",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Terraform",
+         "skill_norm": "Terraform",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "CI/CD",
+         "skill_norm": "CI/CD",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "a49d4ab9e9b06d9da27841bc5d29a3d902fef14eaec3b67b52fe6b3ac3ac2323",
+   "stage": "extract",
+   "request": "Company: Hooli | Title: Software Engineer, New Grad",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4523,
+     "output_tokens": 845,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Montreal",
+        "province": "QC",
+        "country": "CA",
+        "work_arrangement": "hybrid",
+        "onsite_days": 3,
+        "remote_scope": "city",
+        "french_requirement": "none",
+        "min_years": 0,
+        "seniority": "newgrad",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Hooli's Montreal office"
+         },
+         {
+          "field": "province",
+          "quote": "Montreal, Quebec, Canada"
+         },
+         {
+          "field": "country",
+          "quote": "Montreal, Quebec, Canada"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "This is a hybrid role"
+         },
+         {
+          "field": "onsite_days",
+          "quote": "3 days a week on site"
+         },
+         {
+          "field": "remote_scope",
+          "quote": "hybrid role based in our Montreal office"
+         },
+         {
+          "field": "seniority",
+          "quote": "We are hiring new graduates"
+         },
+         {
+          "field": "min_years",
+          "quote": "We are hiring new graduates"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "A bachelor's degree in Computer Science or a related field, completed by summer 2027",
+         "skill_norm": "Bachelor's degree in CS or related",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Strong Python fundamentals",
+         "skill_norm": "Python",
+         "must_have": true,
+         "years": null,
+         "context": "fundamentals",
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with SQL and relational databases (PostgreSQL preferred)",
+         "skill_norm": "SQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with SQL and relational databases (PostgreSQL preferred)",
+         "skill_norm": "PostgreSQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Familiarity with Docker and CI/CD pipelines",
+         "skill_norm": "Docker",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Familiarity with Docker and CI/CD pipelines",
+         "skill_norm": "CI/CD pipelines",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Kubernetes experience is a plus",
+         "skill_norm": "Kubernetes",
+         "must_have": false,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "A bachelor's degree in Computer Science or a related field, completed by summer 2027",
+         "skill_norm": "Graduation by summer 2027",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "eligibility"
+        },
+        {
+         "text": "Design REST APIs with FastAPI backed by PostgreSQL",
+         "skill_norm": "FastAPI",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Design REST APIs with FastAPI backed by PostgreSQL",
+         "skill_norm": "REST APIs",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "809f73c7a19cd895fd02bc471077fb112e9881f0696a5d333c67e2057b8b31b0",
+   "stage": "extract",
+   "request": "Company: Massive Dynamic | Title: Machine Learning Engineer",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4471,
+     "output_tokens": 624,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": null,
+        "province": null,
+        "country": "CA",
+        "work_arrangement": "remote",
+        "onsite_days": null,
+        "remote_scope": "canada",
+        "french_requirement": "none",
+        "min_years": 0,
+        "seniority": "newgrad",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "country",
+          "quote": "Remote - Canada"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "This is a remote role open to candidates anywhere in Canada."
+         },
+         {
+          "field": "remote_scope",
+          "quote": "Remote within Canada"
+         },
+         {
+          "field": "min_years",
+          "quote": "0-2 years of industry experience; new graduates welcome"
+         },
+         {
+          "field": "seniority",
+          "quote": "new graduates welcome"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "0-2 years of industry experience; new graduates welcome",
+         "skill_norm": "0-2 years of industry experience",
+         "must_have": false,
+         "years": null,
+         "context": null,
+         "kind": "eligibility"
+        },
+        {
+         "text": "Proficiency in Python and PyTorch",
+         "skill_norm": "Python",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Proficiency in Python and PyTorch",
+         "skill_norm": "PyTorch",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience training and evaluating machine learning models",
+         "skill_norm": "Machine learning",
+         "must_have": true,
+         "years": null,
+         "context": "training and evaluating models",
+         "kind": "skill"
+        },
+        {
+         "text": "Experience building LLM applications",
+         "skill_norm": "LLM applications",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with MLflow or a similar experiment tracker",
+         "skill_norm": "MLflow",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Kubernetes is an asset",
+         "skill_norm": "Kubernetes",
+         "must_have": false,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "c29bac3e94fb4ae60ca8f3c8321a71705ba1d8422b6ce63f6f15f6645a732c26",
+   "stage": "extract",
+   "request": "Company: Massive Dynamic | Title: Software Engineer II",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4393,
+     "output_tokens": 527,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Toronto",
+        "province": "ON",
+        "country": "CA",
+        "work_arrangement": "hybrid",
+        "onsite_days": 3,
+        "remote_scope": "city",
+        "french_requirement": "none",
+        "min_years": 5,
+        "seniority": "senior",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Toronto, Ontario, Canada"
+         },
+         {
+          "field": "province",
+          "quote": "Ontario"
+         },
+         {
+          "field": "country",
+          "quote": "Canada"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Hybrid in Toronto, 3 days a week"
+         },
+         {
+          "field": "onsite_days",
+          "quote": "3 days a week"
+         },
+         {
+          "field": "remote_scope",
+          "quote": "Hybrid in Toronto"
+         },
+         {
+          "field": "min_years",
+          "quote": "5+ years of professional software development experience"
+         },
+         {
+          "field": "seniority",
+          "quote": "5+ years of professional software development experience"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "5+ years of professional software development experience",
+         "skill_norm": "5+ years software development",
+         "must_have": true,
+         "years": 5,
+         "context": null,
+         "kind": "eligibility"
+        },
+        {
+         "text": "Strong Python or Java",
+         "skill_norm": "Python | Java",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience designing REST APIs and relational schemas",
+         "skill_norm": "REST API design",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience designing REST APIs and relational schemas",
+         "skill_norm": "Relational database design",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "14e4f16e3334757bb81553e70090d183580512aae9d050468c58edbca8abf395",
+   "stage": "extract",
+   "request": "Company: Sterling Cooper Digital | Title: AI Engineer, New Grad",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4442,
+     "output_tokens": 648,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Montreal",
+        "province": "QC",
+        "country": "CA",
+        "work_arrangement": "hybrid",
+        "onsite_days": 2,
+        "remote_scope": "city",
+        "french_requirement": "none",
+        "min_years": 0,
+        "seniority": "newgrad",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Hybrid in Montreal, 2 days a week"
+         },
+         {
+          "field": "province",
+          "quote": "Montreal"
+         },
+         {
+          "field": "country",
+          "quote": "Montreal"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Hybrid in Montreal, 2 days a week"
+         },
+         {
+          "field": "onsite_days",
+          "quote": "2 days a week"
+         },
+         {
+          "field": "remote_scope",
+          "quote": "Hybrid in Montreal"
+         },
+         {
+          "field": "seniority",
+          "quote": "AI Engineer, New Grad"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Python",
+         "skill_norm": "Python",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with LLM APIs",
+         "skill_norm": "LLM APIs",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Retrieval-augmented generation (RAG)",
+         "skill_norm": "RAG",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "LangChain",
+         "skill_norm": "LangChain",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "AWS Certified Developer - Associate certification (required)",
+         "skill_norm": "AWS Certified Developer - Associate",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Build LLM features with retrieval-augmented generation",
+         "skill_norm": "LLM feature development",
+         "must_have": true,
+         "years": null,
+         "context": "retrieval-augmented generation",
+         "kind": "skill"
+        },
+        {
+         "text": "Deploy services on AWS",
+         "skill_norm": "AWS",
+         "must_have": true,
+         "years": null,
+         "context": "deployment",
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "3c0fe8f44735e9a587dacca5087cffc553a76e4785b3a40a5c0f3582d2cca925",
+   "stage": "extract",
+   "request": "Company: Sterling Cooper Digital | Title: Junior Software Developer",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4449,
+     "output_tokens": 638,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Montreal",
+        "province": "QC",
+        "country": "CA",
+        "work_arrangement": "hybrid",
+        "onsite_days": null,
+        "remote_scope": "city",
+        "french_requirement": "required_working",
+        "min_years": null,
+        "seniority": "junior",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.92,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Hybrid from Montreal or Toronto"
+         },
+         {
+          "field": "province",
+          "quote": "Montreal; Toronto (Hybrid)"
+         },
+         {
+          "field": "country",
+          "quote": "Sterling Cooper Digital builds campaign-planning software for agencies across North America"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Hybrid from Montreal or Toronto"
+         },
+         {
+          "field": "remote_scope",
+          "quote": "Hybrid from Montreal or Toronto"
+         },
+         {
+          "field": "french_requirement",
+          "quote": "Bilingualism (French and English) is required"
+         },
+         {
+          "field": "seniority",
+          "quote": "Junior Software Developer"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Java and object-oriented programming",
+         "skill_norm": "Java",
+         "must_have": true,
+         "years": null,
+         "context": "object-oriented programming",
+         "kind": "skill"
+        },
+        {
+         "text": "Spring Boot",
+         "skill_norm": "Spring Boot",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "SQL",
+         "skill_norm": "SQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Git",
+         "skill_norm": "Git",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Genuine interest in financial technology",
+         "skill_norm": "Financial technology domain knowledge",
+         "must_have": false,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "A passion for clean code",
+         "skill_norm": "Code quality practices",
+         "must_have": false,
+         "years": null,
+         "context": "clean code",
+         "kind": "skill"
+        },
+        {
+         "text": "Bilingualism (French and English) is required",
+         "skill_norm": "Bilingual French-English",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "8a81ca337fa0f456b6c9dc8da89e528fed6f47197adac9155970347c9ba3a914",
+   "stage": "extract",
+   "request": "Company: Tyrell Corporation | Title: Développeur logiciel junior",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4522,
+     "output_tokens": 552,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Montreal",
+        "province": "QC",
+        "country": "CA",
+        "work_arrangement": "onsite",
+        "onsite_days": null,
+        "remote_scope": "unknown",
+        "french_requirement": "required_working",
+        "min_years": null,
+        "seniority": "junior",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Poste en présentiel à Montréal"
+         },
+         {
+          "field": "province",
+          "quote": "Montréal, QC"
+         },
+         {
+          "field": "country",
+          "quote": "Montréal, QC"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Poste en présentiel à Montréal"
+         },
+         {
+          "field": "french_requirement",
+          "quote": "Une excellente maîtrise du français, à l'écrit comme à l'oral"
+         },
+         {
+          "field": "seniority",
+          "quote": "développeur ou une développeuse junior"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Un baccalauréat en informatique ou en génie logiciel",
+         "skill_norm": "Bachelor's degree in Computer Science | Software Engineering",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Une bonne connaissance de Python ou de Java",
+         "skill_norm": "Python | Java",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Développer des fonctionnalités en Python et en Java",
+         "skill_norm": "Python | Java",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Écrire des tests automatisés et participer aux revues de code",
+         "skill_norm": "Automated testing",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "1ff10451e50a4a88620226594bd1d33980760791a33043e35abbc320a51fc164",
+   "stage": "extract",
+   "request": "Company: Tyrell Corporation | Title: Full-Stack Developer",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4451,
+     "output_tokens": 626,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Toronto",
+        "province": "ON",
+        "country": "CA",
+        "work_arrangement": "hybrid",
+        "onsite_days": 2,
+        "remote_scope": "city",
+        "french_requirement": "none",
+        "min_years": 1,
+        "seniority": "junior",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Tuesdays and Thursdays in our Toronto office"
+         },
+         {
+          "field": "province",
+          "quote": "Toronto, ON"
+         },
+         {
+          "field": "country",
+          "quote": "Toronto, ON"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Hybrid: Tuesdays and Thursdays in our Toronto office"
+         },
+         {
+          "field": "onsite_days",
+          "quote": "Tuesdays and Thursdays"
+         },
+         {
+          "field": "remote_scope",
+          "quote": "Hybrid: Tuesdays and Thursdays in our Toronto office"
+         },
+         {
+          "field": "min_years",
+          "quote": "1+ years of experience building web applications"
+         },
+         {
+          "field": "seniority",
+          "quote": "1+ years of experience building web applications"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "1+ years of experience building web applications",
+         "skill_norm": "Web application development",
+         "must_have": true,
+         "years": 1,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Strong TypeScript and React",
+         "skill_norm": "TypeScript",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Strong TypeScript and React",
+         "skill_norm": "React",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with Node.js",
+         "skill_norm": "Node.js",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with GraphQL",
+         "skill_norm": "GraphQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "PostgreSQL experience",
+         "skill_norm": "PostgreSQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "0b5cf47c9931d671f12053a31847dfae1578c3d8fedfb3bb3e3051c55901c24a",
+   "stage": "extract",
+   "request": "Company: Tyrell Corporation | Title: Software Developer Intern - Winter 2027",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4457,
+     "output_tokens": 523,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Montreal",
+        "province": "QC",
+        "country": "CA",
+        "work_arrangement": "onsite",
+        "onsite_days": null,
+        "remote_scope": "unknown",
+        "french_requirement": "none",
+        "min_years": null,
+        "seniority": "intern",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": 4,
+        "term_unit": "months",
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Onsite in Montreal"
+         },
+         {
+          "field": "province",
+          "quote": "Montreal, QC"
+         },
+         {
+          "field": "country",
+          "quote": "Montreal, QC"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Onsite in Montreal"
+         },
+         {
+          "field": "seniority",
+          "quote": "This is a 4-month internship from January to April 2027"
+         },
+         {
+          "field": "term_length",
+          "quote": "4-month internship from January to April 2027"
+         },
+         {
+          "field": "term_unit",
+          "quote": "4-month internship from January to April 2027"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Currently enrolled in a Computer Science or Software Engineering degree",
+         "skill_norm": "Current enrollment in Computer Science or Software Engineering degree",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "eligibility"
+        },
+        {
+         "text": "Comfortable with Java or Python",
+         "skill_norm": "Java | Python",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Familiar with Git",
+         "skill_norm": "Git",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "React experience is a plus",
+         "skill_norm": "React",
+         "must_have": false,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "ed9a8ae454972fbc00504f40ebf1b14e0c7fab121e36d0294833ed2891402330",
+   "stage": "extract",
+   "request": "Company: Vandelay Industries | Title: Backend Developer",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4453,
+     "output_tokens": 660,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": null,
+        "province": null,
+        "country": "US",
+        "work_arrangement": "remote",
+        "onsite_days": null,
+        "remote_scope": "us",
+        "french_requirement": "none",
+        "min_years": 1,
+        "seniority": "junior",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "citizen_only",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "country",
+          "quote": "This is a fully remote position open only to candidates who reside in the United States"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "This is a fully remote position"
+         },
+         {
+          "field": "remote_scope",
+          "quote": "open only to candidates who reside in the United States"
+         },
+         {
+          "field": "work_auth",
+          "quote": "We are unable to hire outside the United States"
+         },
+         {
+          "field": "min_years",
+          "quote": "1+ years of experience with Python in production"
+         },
+         {
+          "field": "seniority",
+          "quote": "1+ years of experience with Python in production"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "1+ years of experience with Python in production",
+         "skill_norm": "Python",
+         "must_have": true,
+         "years": 1,
+         "context": "production",
+         "kind": "skill"
+        },
+        {
+         "text": "Solid SQL skills",
+         "skill_norm": "SQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with AWS",
+         "skill_norm": "AWS",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Build Python microservices and REST APIs for order routing",
+         "skill_norm": "Microservices | REST APIs",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Own PostgreSQL schemas and migrations",
+         "skill_norm": "PostgreSQL",
+         "must_have": true,
+         "years": null,
+         "context": "schemas and migrations",
+         "kind": "skill"
+        },
+        {
+         "text": "Improve observability with structured logging and metrics",
+         "skill_norm": "Structured logging | Metrics",
+         "must_have": true,
+         "years": null,
+         "context": "observability",
+         "kind": "skill"
+        },
+        {
+         "text": "open only to candidates who reside in the United States",
+         "skill_norm": "US residency",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "eligibility"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "f01817cdba58dee0dcb989c2ff1ed47b5c90084395d7aa26c768b92d94297ba1",
+   "stage": "extract",
+   "request": "Company: Vandelay Industries | Title: Data Engineer",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4463,
+     "output_tokens": 635,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Toronto",
+        "province": "ON",
+        "country": "CA",
+        "work_arrangement": "hybrid",
+        "onsite_days": 2,
+        "remote_scope": "province",
+        "french_requirement": "none",
+        "min_years": 2,
+        "seniority": "junior",
+        "clearance": false,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "2 days a week in our Toronto office"
+         },
+         {
+          "field": "province",
+          "quote": "Toronto, Ontario, Canada"
+         },
+         {
+          "field": "country",
+          "quote": "Toronto, Ontario, Canada"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Hybrid: 2 days a week in our Toronto office"
+         },
+         {
+          "field": "onsite_days",
+          "quote": "2 days a week in our Toronto office"
+         },
+         {
+          "field": "remote_scope",
+          "quote": "Hybrid: 2 days a week in our Toronto office"
+         },
+         {
+          "field": "min_years",
+          "quote": "2+ years of experience building data pipelines"
+         },
+         {
+          "field": "seniority",
+          "quote": "2+ years of experience building data pipelines"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "2+ years of experience building data pipelines (internships count)",
+         "skill_norm": "Data pipeline development",
+         "must_have": true,
+         "years": 2,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Strong Python and SQL",
+         "skill_norm": "Python",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Strong Python and SQL",
+         "skill_norm": "SQL",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with Apache Airflow",
+         "skill_norm": "Apache Airflow",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with Apache Spark",
+         "skill_norm": "Apache Spark",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "dbt experience is nice to have",
+         "skill_norm": "dbt",
+         "must_have": false,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "1121f688bbf45ba12996df8fab4e64c27053a6a3932f04070dc60c3556ca642a",
+   "stage": "extract",
+   "request": "Company: Vandelay Industries | Title: Software Developer, Defence Systems",
+   "message": {
+    "model": "claude-haiku-4-5-20251001",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 4435,
+     "output_tokens": 514,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "record_posting",
+      "input": {
+       "facts": {
+        "city": "Ottawa",
+        "province": "ON",
+        "country": "CA",
+        "work_arrangement": "onsite",
+        "onsite_days": 5,
+        "remote_scope": "unknown",
+        "french_requirement": "none",
+        "min_years": null,
+        "seniority": "unknown",
+        "clearance": true,
+        "peng": false,
+        "work_auth": "not_stated",
+        "part_time": false,
+        "hours_per_week": null,
+        "contract": false,
+        "term_length": null,
+        "term_unit": null,
+        "confidence": 0.95,
+        "evidence": [
+         {
+          "field": "city",
+          "quote": "Onsite in Ottawa"
+         },
+         {
+          "field": "province",
+          "quote": "Ottawa, Ontario, Canada"
+         },
+         {
+          "field": "country",
+          "quote": "Ottawa, Ontario, Canada"
+         },
+         {
+          "field": "work_arrangement",
+          "quote": "Onsite in Ottawa, five days a week"
+         },
+         {
+          "field": "onsite_days",
+          "quote": "five days a week"
+         },
+         {
+          "field": "clearance",
+          "quote": "Must hold a valid Government of Canada Secret security clearance at the time of hire"
+         }
+        ]
+       },
+       "requirements": [
+        {
+         "text": "Bachelor's degree in Computer Science or Software Engineering",
+         "skill_norm": "Bachelor's degree in CS or related",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Experience with Java or Python",
+         "skill_norm": "Java | Python",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Must hold a valid Government of Canada Secret security clearance at the time of hire",
+         "skill_norm": "Government of Canada Secret clearance",
+         "must_have": true,
+         "years": null,
+         "context": null,
+         "kind": "skill"
+        },
+        {
+         "text": "Write automated tests and documentation for accredited releases",
+         "skill_norm": "Automated testing",
+         "must_have": true,
+         "years": null,
+         "context": "accredited releases",
+         "kind": "skill"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

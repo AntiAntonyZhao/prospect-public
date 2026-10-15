@@ -1,0 +1,98 @@
+[
+  {
+    "additional": "<div>Onsite in Montreal. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</div>",
+    "additionalPlain": "Onsite in Montreal. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.",
+    "categories": {
+      "commitment": "Internship",
+      "department": "Engineering",
+      "location": "Montreal, QC",
+      "team": "Software",
+      "allLocations": [
+        "Montreal, QC"
+      ]
+    },
+    "createdAt": 1791417600000,
+    "descriptionPlain": "Tyrell's Montreal studio builds simulation tools. Our interns ship real features with a mentor from day one. This is a 4-month internship from January to April 2027.",
+    "description": "<div>Tyrell's Montreal studio builds simulation tools. Our interns ship real features with a mentor from day one. This is a 4-month internship from January to April 2027.</div>",
+    "id": "f1f46356-241d-514c-be7c-92a8209d1a9d",
+    "lists": [
+      {
+        "text": "What you'll do",
+        "content": "<li>Build features in Python or Java for our simulation pipeline</li><li>Write unit tests and take part in code review</li>"
+      },
+      {
+        "text": "Who you are",
+        "content": "<li>Currently enrolled in a Computer Science or Software Engineering degree</li><li>Comfortable with Java or Python</li><li>Familiar with Git</li><li>React experience is a plus</li>"
+      }
+    ],
+    "text": "Software Developer Intern - Winter 2027",
+    "country": "CA",
+    "workplaceType": "onsite",
+    "hostedUrl": "https://jobs.example.com/tyrell/f1f46356-241d-514c-be7c-92a8209d1a9d",
+    "applyUrl": "https://jobs.example.com/tyrell/f1f46356-241d-514c-be7c-92a8209d1a9d/apply"
+  },
+  {
+    "additional": "<div>Hybrid: Tuesdays and Thursdays in our Toronto office. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.</div>",
+    "additionalPlain": "Hybrid: Tuesdays and Thursdays in our Toronto office. We are an equal opportunity employer. This company is fictional and exists only in the Prospect demo.",
+    "categories": {
+      "commitment": "Full-time",
+      "department": "Engineering",
+      "location": "Toronto, ON",
+      "team": "Software",
+      "allLocations": [
+        "Toronto, ON"
+      ]
+    },
+    "createdAt": 1791590400000,
+    "descriptionPlain": "Build the customer portal for Tyrell's replicant-design tools, end to end, with a small product team.",
+    "description": "<div>Build the customer portal for Tyrell's replicant-design tools, end to end, with a small product team.</div>",
+    "id": "415e10ed-f321-5894-9805-34b9c7b4a337",
+    "lists": [
+      {
+        "text": "Responsibilities",
+        "content": "<li>Build TypeScript and React front ends</li><li>Write Node.js services with a GraphQL API</li><li>Own features from schema to UI</li>"
+      },
+      {
+        "text": "Requirements",
+        "content": "<li>1+ years of experience building web applications</li><li>Strong TypeScript and React</li><li>Experience with Node.js</li><li>Experience with GraphQL</li><li>PostgreSQL experience</li>"
+      }
+    ],
+    "text": "Full-Stack Developer",
+    "country": "CA",
+    "workplaceType": "hybrid",
+    "hostedUrl": "https://jobs.example.com/tyrell/415e10ed-f321-5894-9805-34b9c7b4a337",
+    "applyUrl": "https://jobs.example.com/tyrell/415e10ed-f321-5894-9805-34b9c7b4a337/apply"
+  },
+  {
+    "additional": "<div>Poste en présentiel à Montréal. Cette entreprise est fictive et n'existe que pour la démo de Prospect.</div>",
+    "additionalPlain": "Poste en présentiel à Montréal. Cette entreprise est fictive et n'existe que pour la démo de Prospect.",
+    "categories": {
+      "commitment": "Temps plein",
+      "department": "Engineering",
+      "location": "Montréal, QC",
+      "team": "Software",
+      "allLocations": [
+        "Montréal, QC"
+      ]
+    },
+    "createdAt": 1791504000000,
+    "descriptionPlain": "Le studio de Montréal de Tyrell conçoit des outils de simulation pour nos clients industriels. Nous cherchons un développeur ou une développeuse junior pour rejoindre notre équipe.",
+    "description": "<div>Le studio de Montréal de Tyrell conçoit des outils de simulation pour nos clients industriels. Nous cherchons un développeur ou une développeuse junior pour rejoindre notre équipe.</div>",
+    "id": "764d965b-7cda-5dfd-8ae6-cc0424fa5408",
+    "lists": [
+      {
+        "text": "Ce que tu feras",
+        "content": "<li>Développer des fonctionnalités en Python et en Java</li><li>Écrire des tests automatisés et participer aux revues de code</li><li>Collaborer avec les équipes produit au quotidien</li>"
+      },
+      {
+        "text": "Ce que nous recherchons",
+        "content": "<li>Un baccalauréat en informatique ou en génie logiciel</li><li>Une bonne connaissance de Python ou de Java</li><li>Une excellente maîtrise du français, à l'écrit comme à l'oral</li>"
+      }
+    ],
+    "text": "Développeur logiciel junior",
+    "country": "CA",
+    "workplaceType": "onsite",
+    "hostedUrl": "https://jobs.example.com/tyrell/764d965b-7cda-5dfd-8ae6-cc0424fa5408",
+    "applyUrl": "https://jobs.example.com/tyrell/764d965b-7cda-5dfd-8ae6-cc0424fa5408/apply"
+  }
+]

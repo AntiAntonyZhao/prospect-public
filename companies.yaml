@@ -1,0 +1,11 @@
+# companies.yaml — {name, ats, token, careers_url}. Verify every token by opening the URL.
+# A short example list for live runs (`prospect ingest` / `prospect run`): each board below
+# answered its public API on 2026-09-22. Add the companies you care about; check them with
+# `prospect companies check`. Board tokens never live in code.
+
+companies:
+  - {name: Cohere, ats: ashby, token: cohere, careers_url: https://jobs.ashbyhq.com/cohere, verified: "2026-09-22"}
+  - {name: Wealthsimple, ats: ashby, token: wealthsimple, careers_url: https://jobs.ashbyhq.com/wealthsimple, verified: "2026-09-22"}
+  - {name: Faire, ats: greenhouse, token: faire, careers_url: https://job-boards.greenhouse.io/faire, verified: "2026-09-22"}
+  - {name: StackAdapt, ats: greenhouse, token: stackadapt, careers_url: https://job-boards.greenhouse.io/stackadapt, verified: "2026-09-22"}
+  - {name: Mistplay, ats: lever, token: mistplay, careers_url: https://jobs.lever.co/mistplay, verified: "2026-09-22"}

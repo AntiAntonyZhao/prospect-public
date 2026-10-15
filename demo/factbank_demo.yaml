@@ -1,0 +1,407 @@
+# FICTIONAL DEMO PROFILE.
+# "Demo Candidate" is not a real person. Every employer, school, project, link and number in
+# this file is invented so that the public demo runs end to end. Any resemblance to real
+# people or companies is coincidental. To run the pipeline for yourself, copy this file,
+# replace its contents with your own facts, and point `[paths] factbank` in prospect.toml at it.
+#
+# The schema is documented in docs/FACTBANK.md. `prospect factbank lint` checks it.
+
+version: 1
+
+identity:
+  name: Demo Candidate
+  email: demo.candidate@example.com
+  phone: "(514) 555-0142"
+  location: {city: Montreal, province: QC, country: CA}
+  links:
+    portfolio: https://example.com/demo-candidate
+  work_authorization: citizen
+  languages:
+    - {lang: English, cefr: C2, render: English}
+    - {lang: French, cefr: A2, render: "French (basic)"}
+
+targets:
+  roles: [software engineer, backend engineer, full-stack engineer, ML engineer,
+          new grad developer]
+  seniority: [intern, newgrad, junior]
+  cities: [Montreal, Toronto]
+  provinces: [QC, "ON"]
+  remote_scope_ok: [canada, global]
+  max_years: 4
+
+education:
+  - id: example-u
+    institution: Example University (fictional)
+    degree: Bachelor of Science, Computer Science
+    start: 2022-09
+    end: 2026-05
+    location: Montreal, Canada
+
+skills:
+  - id: python
+    label: Python
+    category: language
+    domains: [backend, data, ml, tooling]
+    level: proficient
+    evidence: [globex-pipeline, initech-api, lab-classifier]
+    aliases: [Python 3, Python scripting]
+    adjacent: []
+
+  - id: java
+    label: Java
+    category: language
+    domains: [backend]
+    level: working
+    evidence: [scheduler-solver]
+    aliases: [OOP, object-oriented programming, object-oriented design]
+    adjacent: [kotlin, csharp]
+
+  - id: typescript
+    label: TypeScript
+    category: language
+    domains: [frontend, backend]
+    level: working
+    evidence: [trailmix-web, globex-dashboard]
+    aliases: [TS]
+    adjacent: []
+
+  - id: javascript
+    label: JavaScript
+    category: language
+    domains: [frontend, backend]
+    level: working
+    evidence: [trailmix-web]
+    aliases: [JS, ES6]
+    adjacent: []
+
+  - id: sql
+    label: SQL
+    category: db
+    domains: [data, backend]
+    level: proficient
+    evidence: [globex-pipeline]
+    aliases: [relational databases, SQL queries]
+    adjacent: []
+
+  - id: postgresql
+    label: PostgreSQL
+    category: db
+    domains: [data, backend]
+    level: working
+    evidence: [globex-pipeline, trailmix-api]
+    aliases: [Postgres]
+    adjacent: [mysql]
+
+  - id: fastapi
+    label: FastAPI
+    category: framework
+    domains: [backend]
+    level: working
+    evidence: [initech-api, trailmix-api, globex-dashboard]
+    aliases: []
+    adjacent: [flask, django]
+
+  - id: rest-apis
+    label: REST APIs
+    category: methodology
+    domains: [backend]
+    level: proficient
+    evidence: [initech-api]
+    aliases: [RESTful services, HTTP APIs, web services]
+    adjacent: [graphql, grpc]
+
+  - id: react
+    label: React
+    category: framework
+    domains: [frontend]
+    level: working
+    evidence: [trailmix-web, globex-dashboard]
+    aliases: [React.js, ReactJS]
+    adjacent: [vue, angular, svelte]
+
+  - id: docker
+    label: Docker
+    category: devops
+    domains: [devops, cloud]
+    level: working
+    evidence: [globex-ci, support-bot-deploy]
+    aliases: [containers, containerization]
+    adjacent: [kubernetes]
+
+  - id: github-actions
+    label: GitHub Actions
+    category: devops
+    domains: [devops]
+    level: working
+    evidence: [globex-ci]
+    aliases: [CI/CD, continuous integration]
+    adjacent: [jenkins, gitlab-ci]
+
+  - id: git
+    label: Git
+    category: tool
+    domains: [tooling, process]
+    level: proficient
+    basis: daily use in every project and internship
+    aliases: [version control, GitHub]
+    adjacent: []
+
+  - id: linux
+    label: Linux
+    category: tool
+    domains: [systems, tooling]
+    level: working
+    basis: development environment for all coursework
+    aliases: [Unix, command line]
+    adjacent: []
+
+  - id: pytest
+    label: pytest
+    category: testing
+    domains: [testing]
+    level: working
+    evidence: [globex-ci, initech-tests, trailmix-api]
+    aliases: [unit testing, test automation]
+    adjacent: []
+
+  - id: pytorch
+    label: PyTorch
+    category: ml
+    domains: [ml]
+    level: working
+    evidence: [lab-classifier]
+    aliases: [deep learning frameworks]
+    adjacent: [tensorflow, jax]
+
+  - id: scikit-learn
+    label: scikit-learn
+    category: ml
+    domains: [ml, data]
+    level: working
+    evidence: [lab-classifier]
+    aliases: [sklearn, classical machine learning]
+    adjacent: [xgboost]
+
+  - id: pandas
+    label: pandas
+    category: tool
+    domains: [data]
+    level: proficient
+    evidence: [lab-classifier, lab-eval]
+    aliases: [dataframes]
+    adjacent: [polars]
+
+  - id: llm-apis
+    label: LLM APIs
+    category: ml
+    domains: [llm, backend]
+    level: working
+    evidence: [support-bot-triage, rag-notes-retrieval]
+    aliases: [LLM integration, prompt engineering, structured outputs]
+    adjacent: [langchain, llamaindex]
+
+  - id: agile
+    label: Agile
+    category: methodology
+    domains: [process]
+    level: working
+    basis: two-week sprints in both internships
+    aliases: [Scrum]
+    adjacent: []
+
+  - id: aws
+    label: AWS
+    category: cloud
+    domains: [cloud]
+    level: familiar
+    evidence: [support-bot-deploy]
+    aliases: [Amazon Web Services]
+    adjacent: [gcp, azure]
+
+  - id: cpp
+    label: C++
+    category: language
+    domains: [systems, algorithms]
+    level: familiar
+    basis: two systems-programming courses
+    aliases: []
+    adjacent: []
+
+  - id: go
+    label: Go
+    category: language
+    domains: [backend]
+    level: familiar
+    basis: one small personal command-line tool
+    aliases: [Golang]
+    adjacent: []
+
+experiences:
+  - id: globex
+    org: Globex Logistics (fictional)
+    title: Software Developer Intern
+    start: 2025-05
+    end: 2025-08
+    location: Montreal, Canada
+    kind: work
+    bullets:
+      - id: globex-pipeline
+        text: >-
+          Built a Python and PostgreSQL ingestion service that loads 40K+ daily shipment
+          events, cutting report latency from 6 hours to 15 minutes
+        skills: [python, postgresql, sql]
+        metrics: ["40K+", "6", "15"]
+        tags: [data, backend, etl]
+        strength: 5
+      - id: globex-dashboard
+        text: >-
+          Added TypeScript and React dashboards for warehouse operations backed by a FastAPI
+          service, used daily by 3 regional teams
+        skills: [typescript, react, fastapi]
+        metrics: ["3"]
+        tags: [frontend, full-stack]
+        strength: 3
+      - id: globex-ci
+        text: >-
+          Set up GitHub Actions CI with pytest and Docker images, raising test coverage from
+          41% to 78%
+        skills: [github-actions, pytest, docker]
+        metrics: ["41%", "78%"]
+        tags: [devops, testing]
+        strength: 4
+
+  - id: initech
+    org: Initech (fictional)
+    title: Backend Developer Intern
+    start: 2024-05
+    end: 2024-08
+    location: Toronto, Canada
+    kind: work
+    bullets:
+      - id: initech-api
+        text: >-
+          Designed REST endpoints in FastAPI for an internal billing tool, serving 1.2K
+          requests per minute at p95 latency under 120 ms
+        skills: [fastapi, rest-apis, python]
+        metrics: ["1.2K", "120"]
+        tags: [backend, api, performance]
+        strength: 5
+      - id: initech-tests
+        text: >-
+          Wrote pytest suites and fixtures for the payments module, catching 12 regressions
+          before release
+        skills: [pytest, python]
+        metrics: ["12"]
+        tags: [testing]
+        strength: 3
+
+  - id: data-lab
+    org: Example University Data Lab (fictional)
+    title: Undergraduate Research Assistant
+    start: 2025-09
+    end: 2026-04
+    location: Montreal, Canada
+    kind: research
+    bullets:
+      - id: lab-classifier
+        text: >-
+          Trained PyTorch and scikit-learn classifiers on 25K labeled forum posts, improving
+          macro F1 from 0.71 to 0.83
+        skills: [pytorch, scikit-learn, pandas, python]
+        metrics: ["25K", "0.71", "0.83"]
+        tags: [ml, nlp, evaluation]
+        strength: 5
+      - id: lab-eval
+        text: >-
+          Built an evaluation harness with pandas reports comparing 4 model variants per
+          experiment
+        skills: [pandas, python]
+        metrics: ["4"]
+        tags: [ml, evaluation]
+        strength: 3
+
+projects:
+  - id: support-bot
+    name: "Helpdesk Copilot: LLM Ticket Triage"
+    start: 2026-01
+    end: 2026-04
+    kind: team
+    course: Capstone
+    url: null
+    stack: [python, fastapi, llm-apis, postgresql, docker]
+    bullets:
+      - id: support-bot-triage
+        text: >-
+          Built an LLM ticket-triage service with structured tool-calling output, matching
+          human labels on 88% of a 300-ticket test set
+        skills: [llm-apis, python, fastapi]
+        metrics: ["88%", "300"]
+        tags: [llm, evaluation, backend]
+        strength: 5
+      - id: support-bot-deploy
+        text: >-
+          Containerized the service with Docker and deployed it on AWS for a 6-week pilot
+        skills: [docker, aws]
+        metrics: ["6"]
+        tags: [devops, cloud]
+        strength: 3
+
+  - id: rag-notes
+    name: "Course Notes Search: Retrieval-Augmented QA"
+    start: 2025-10
+    end: 2025-12
+    kind: solo
+    url: null
+    stack: [python, llm-apis, sql]
+    bullets:
+      - id: rag-notes-retrieval
+        text: >-
+          Implemented embedding retrieval over 2K lecture-note chunks with answers that cite
+          their source passages
+        skills: [llm-apis, python]
+        metrics: ["2K"]
+        tags: [llm, retrieval]
+        strength: 4
+
+  - id: trailmix
+    name: "Trailmix: Hiking Trip Planner"
+    start: 2025-01
+    end: 2025-04
+    kind: team
+    url: null
+    stack: [typescript, react, javascript, fastapi, postgresql]
+    bullets:
+      - id: trailmix-web
+        text: >-
+          Built a TypeScript and React trip planner with offline map caching, shared by
+          4 teammates during development
+        skills: [typescript, react, javascript]
+        metrics: ["4"]
+        tags: [frontend]
+        strength: 3
+      - id: trailmix-api
+        text: >-
+          Wrote the FastAPI and PostgreSQL backend with role-based access and 30+ integration
+          tests
+        skills: [fastapi, postgresql, pytest]
+        metrics: ["30+"]
+        tags: [backend, testing]
+        strength: 3
+
+  - id: course-scheduler
+    name: Course Scheduler
+    start: 2024-01
+    end: 2024-04
+    kind: course
+    course: Software Design
+    url: null
+    stack: [java]
+    bullets:
+      - id: scheduler-solver
+        text: >-
+          Wrote a Java constraint solver that builds conflict-free timetables for 200+ course
+          sections, structured with object-oriented design patterns
+        skills: [java]
+        metrics: ["200+"]
+        tags: [algorithms, oop]
+        strength: 3

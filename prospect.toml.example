@@ -1,0 +1,74 @@
+# Copy to prospect.toml. Everything here is read by config.py; nothing is secret.
+# Every key has a default in config.py, so a missing prospect.toml still works.
+
+[paths]
+factbank  = "demo/factbank_demo.yaml"   # the fictional demo profile; point this at your own
+companies = "companies.yaml"
+db        = "prospect.db"
+
+[targets]
+# Mirrors the fact bank's `targets`; config wins if both are set.
+cities        = ["Montreal", "Toronto"]
+provinces     = ["QC", "ON"]
+remote_scope_ok = ["canada", "global"]
+max_years     = 4             # "3-5 years" and "4+ years" pass, "5+ years" rejects
+
+[dedup]
+window_days = 90
+
+[budget]
+daily_usd = 2.00          # llm/client.py aborts the run when exceeded
+
+[tiers]
+t2_max_hours = 8
+
+[score]
+w_must_t3   = 25
+w_must_t2   = 10
+w_nice_gap  = 3
+w_weak_have = 2
+# Employment terms, linear, 0 at full time / full term:
+#   part-time  cost = w_part_time  * (1 - hours / full_time_hours)    30 h → 6, 16 h → 17, 10 h → 22
+#   short-term cost = w_short_term * (1 - months / full_term_months)  6 mo → 15, 4 mo → 20
+# Internships count as fixed terms (a 4-month one costs 20).
+w_part_time  = 30
+full_time_hours = 37.5
+part_time_default_hours = 20     # "part-time" with no hours stated
+w_short_term = 30
+full_term_months = 12
+intern_default_months = 4        # an internship with no length stated
+contract_default_months = 6      # a contract with no length stated
+ghost_max   = 20
+ghost_per_repost  = 4     # ghost_penalty = min(ghost_max, per_repost*repost_count + no_response)
+ghost_no_response = 10    # a prior application to the same (company, title) got no answer
+no_response_days  = 21    # ... within this many days
+top_n  = 30               # postings tiered by Sonnet per run
+effort = "low"            # tier classification is a lookup task
+# Location: anywhere in Canada is fine; what costs is moving. home = identity.location.city
+# in the fact bank; a fully remote role needs no move either. Range [-30, 0].
+fit_location    = { home = 0, remote = 0, elsewhere = -10, unknown = -5 }
+
+[models]
+haiku  = "claude-haiku-4-5-20251001"
+sonnet = "claude-sonnet-5"
+opus   = "claude-opus-5"
+
+[llm]
+strict_tools = true        # strict tool schemas: tool input always validates
+refusal_fallbacks = true   # server-side fallback on Opus-family sync calls
+
+[rank]
+model = "BAAI/bge-small-en-v1.5"   # local; no embedding API key
+top_n = 150                        # shortlist handed to extract per run
+
+[extract]
+mode = "batch"             # batch (50% off, async) | sync
+batch_wait_minutes = 60    # `prospect run` waits this long, then collects next run
+
+[filter]
+prepass_reject_location = true      # reject only on unambiguous non-Canada metadata
+prepass_reject_senior_titles = true # Senior/Staff/Principal/Lead/Manager in the title
+min_confidence_to_reject = 0.6      # below this, extract-based rules flag instead
+
+[sources]
+enabled = ["greenhouse", "lever", "ashby", "github_newgrad"]

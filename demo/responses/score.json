@@ -1,0 +1,558 @@
+{
+ "about": "Responses to `prospect demo --record` (score stage), recorded 2026-10-15 from the Anthropic API for the fictional demo postings. Keyed by a hash of the full request; replayed by `prospect demo`.",
+ "responses": [
+  {
+   "key": "7cab9a3ccdcc939e8feb1336f3b96e8beb585e2317b4bfed38bee0029cc18dd8",
+   "stage": "score",
+   "request": "Posting: AI Engineer, New Grad at Sterling Cooper Digital | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 437,
+     "output_tokens": 389,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 2,
+         "soft": false,
+         "tier": 1,
+         "t3_reason": null,
+         "matched_node": "llm-apis",
+         "evidence": [
+          "rag-notes-retrieval",
+          "rag-notes"
+         ],
+         "est_hours": null,
+         "nearest_node": null,
+         "rationale": "Implemented embedding retrieval with source citations in rag-notes project."
+        },
+        {
+         "index": 3,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "llm-apis",
+         "rationale": "LangChain is adjacent to llm-apis skill, not yet used but quickly learnable."
+        },
+        {
+         "index": 5,
+         "soft": false,
+         "tier": 1,
+         "t3_reason": null,
+         "matched_node": "llm-apis",
+         "evidence": [
+          "support-bot-triage",
+          "rag-notes-retrieval",
+          "rag-notes"
+         ],
+         "est_hours": null,
+         "nearest_node": null,
+         "rationale": "Built LLM ticket-triage and RAG retrieval projects demonstrating LLM feature development."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "a09c2af5a8ac290481b4a104a58fce8236e610cb435a69d84ba8d4a154617c86",
+   "stage": "score",
+   "request": "Posting: Data Engineer at Vandelay Industries | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 455,
+     "output_tokens": 425,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 0,
+         "soft": false,
+         "tier": 1,
+         "t3_reason": null,
+         "matched_node": "python",
+         "evidence": [
+          "globex-pipeline"
+         ],
+         "est_hours": null,
+         "nearest_node": null,
+         "rationale": "Built a Python/PostgreSQL ingestion pipeline processing 40K+ daily events."
+        },
+        {
+         "index": 3,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "github-actions",
+         "rationale": "No Airflow experience but has CI/pipeline automation background to pick it up quickly."
+        },
+        {
+         "index": 4,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 8,
+         "nearest_node": "pandas",
+         "rationale": "No Spark experience, but has strong Python/pandas data processing background to learn basics quickly."
+        },
+        {
+         "index": 5,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "sql",
+         "rationale": "No dbt experience but strong SQL background makes it quickly learnable."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "851bd0b7b71dfb635e13727e3e758210713db4d34e36e3d07d62511887c7467a",
+   "stage": "score",
+   "request": "Posting: Full-Stack Developer at Tyrell Corporation | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 414,
+     "output_tokens": 358,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 0,
+         "soft": false,
+         "tier": 1,
+         "t3_reason": null,
+         "matched_node": "trailmix-web",
+         "evidence": [
+          "trailmix-web",
+          "globex-dashboard",
+          "initech-api"
+         ],
+         "est_hours": null,
+         "nearest_node": null,
+         "rationale": "Built multiple full-stack web applications across internships and projects."
+        },
+        {
+         "index": 3,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "javascript",
+         "rationale": "No direct Node.js experience, but strong JS/TS and backend API background makes it quickly learnable."
+        },
+        {
+         "index": 4,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "rest-apis",
+         "rationale": "GraphQL is adjacent to REST API experience and learnable within a small time budget."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "4a5fa7c3f976b635644869feff0a068697c88cf39ae122b891122671ca1ce4ca",
+   "stage": "score",
+   "request": "Posting: Junior Software Developer (Part-Time) at Cyberdyne Systems | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 304,
+     "output_tokens": 135,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 1,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "fastapi",
+         "rationale": "Django is adjacent to FastAPI experience and learnable quickly given backend framework familiarity."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "d42fa7a7fd0ef7598a0dbeb28b909c6f507def7658d2aa8f9677da93af1e75af",
+   "stage": "score",
+   "request": "Posting: Junior Software Developer at Sterling Cooper Digital | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 282,
+     "output_tokens": 133,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 1,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 8,
+         "nearest_node": "java",
+         "rationale": "Candidate knows Java OOP but not Spring Boot specifically; reachable with moderate effort."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "9cbd4600119c67ed066a6e9c5b8bc7950b0b24e94d40f53611eea306b368da80",
+   "stage": "score",
+   "request": "Posting: Low-Latency C++ Developer at Cyberdyne Systems | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 450,
+     "output_tokens": 322,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 0,
+         "soft": false,
+         "tier": 3,
+         "t3_reason": "depth",
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 60,
+         "nearest_node": "cpp",
+         "rationale": "Only familiar with basic C++ from coursework, not modern C++17/20 at a professional level."
+        },
+        {
+         "index": 1,
+         "soft": false,
+         "tier": 3,
+         "t3_reason": "depth",
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 80,
+         "nearest_node": "cpp",
+         "rationale": "No experience with lock-free structures or low-latency systems, a deep specialty."
+        },
+        {
+         "index": 2,
+         "soft": false,
+         "tier": 3,
+         "t3_reason": "depth",
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 80,
+         "nearest_node": null,
+         "rationale": "No networking or kernel-level experience in the fact bank; a deep specialized skill."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "649f49bda2867b758a0f1d398e4968148d8b1ad3cd447b43a1e6c208cf777201",
+   "stage": "score",
+   "request": "Posting: Machine Learning Engineer at Massive Dynamic | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 410,
+     "output_tokens": 352,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 2,
+         "soft": false,
+         "tier": 1,
+         "t3_reason": null,
+         "matched_node": "pytorch",
+         "evidence": [
+          "lab-classifier",
+          "lab-eval",
+          "scikit-learn"
+         ],
+         "est_hours": 2,
+         "nearest_node": null,
+         "rationale": "Trained and evaluated PyTorch/scikit-learn classifiers with metrics."
+        },
+        {
+         "index": 3,
+         "soft": false,
+         "tier": 1,
+         "t3_reason": null,
+         "matched_node": "llm-apis",
+         "evidence": [
+          "support-bot-triage",
+          "rag-notes-retrieval"
+         ],
+         "est_hours": 1,
+         "nearest_node": null,
+         "rationale": "Built LLM ticket-triage and retrieval QA apps."
+        },
+        {
+         "index": 4,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 4,
+         "nearest_node": "pytorch",
+         "rationale": "No experiment tracker used, but quick to learn given ML experience."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "a28dc58c67d1c1f2ef2d87a8af9864f74c9212a5dd45243b50197bde056c1cc2",
+   "stage": "score",
+   "request": "Posting: QA Automation Developer at Dunder Mifflin Paper Company | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 291,
+     "output_tokens": 138,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 2,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "pytest",
+         "rationale": "No browser automation tool experience, but testing background with pytest makes Selenium/Playwright quickly learnable."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "1056e625b6069cd0c5f8564dd67de7510942fb7d41e7d57c0582d4c406eb7c31",
+   "stage": "score",
+   "request": "Posting: Software Developer Intern - Winter 2027 at Tyrell Corporation | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 320,
+     "output_tokens": 124,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 0,
+         "soft": false,
+         "tier": 0,
+         "t3_reason": null,
+         "matched_node": "example-u",
+         "evidence": [
+          "example-u"
+         ],
+         "est_hours": null,
+         "nearest_node": null,
+         "rationale": "Currently enrolled in a CS degree at Example University."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "3592838bd9366f0ec778346d926b657afe4d2aa13891ab575041fff7f7495dc7",
+   "stage": "score",
+   "request": "Posting: Software Engineer, New Grad at Hooli | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 373,
+     "output_tokens": 230,
+     "cache_creation_input_tokens": 7143,
+     "cache_read_input_tokens": 0
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 5,
+         "soft": false,
+         "tier": 0,
+         "t3_reason": null,
+         "matched_node": "docker",
+         "evidence": [
+          "globex-ci",
+          "github-actions"
+         ],
+         "est_hours": null,
+         "nearest_node": null,
+         "rationale": "Docker and GitHub Actions CI/CD directly demonstrated."
+        },
+        {
+         "index": 6,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "docker",
+         "rationale": "Kubernetes is adjacent to Docker experience, reachable with a small demo."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  },
+  {
+   "key": "4c318f0ed6aa6452c52a1ebe18cee9a0da7242057f253af0af3d4f1606d87b23",
+   "stage": "score",
+   "request": "Posting: Software Engineer, Platform at Dunder Mifflin Paper Company | Requirements:",
+   "message": {
+    "model": "claude-sonnet-5",
+    "stop_reason": "tool_use",
+    "usage": {
+     "input_tokens": 283,
+     "output_tokens": 142,
+     "cache_creation_input_tokens": 0,
+     "cache_read_input_tokens": 7143
+    },
+    "content": [
+     {
+      "type": "tool_use",
+      "name": "classify_requirements",
+      "input": {
+       "labels": [
+        {
+         "index": 3,
+         "soft": false,
+         "tier": 2,
+         "t3_reason": null,
+         "matched_node": null,
+         "evidence": [],
+         "est_hours": 6,
+         "nearest_node": "docker",
+         "rationale": "No IaC experience shown but adjacent to candidate's devops/cloud background (Docker, AWS), learnable quickly."
+        }
+       ]
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+# Fictional companies for `prospect demo`. Their boards are the JSON files under
+# demo/postings/<ats>/<token>.json, served by the demo instead of the network. Each file
+# has the shape of that ATS's public job-board API response.
+
+companies:
+  - {name: Hooli, ats: greenhouse, token: hooli, careers_url: https://jobs.example.com/hooli}
+  - {name: Vandelay Industries, ats: greenhouse, token: vandelay, careers_url: https://jobs.example.com/vandelay}
+  - {name: Massive Dynamic, ats: greenhouse, token: massivedynamic, careers_url: https://jobs.example.com/massivedynamic}
+  - {name: Tyrell Corporation, ats: lever, token: tyrell, careers_url: https://jobs.example.com/tyrell}
+  - {name: Cyberdyne Systems, ats: lever, token: cyberdyne, careers_url: https://jobs.example.com/cyberdyne}
+  - {name: Sterling Cooper Digital, ats: ashby, token: sterlingcooper, careers_url: https://jobs.example.com/sterlingcooper}
+  - {name: Dunder Mifflin Paper Company, ats: ashby, token: dundermifflin, careers_url: https://jobs.example.com/dundermifflin}
